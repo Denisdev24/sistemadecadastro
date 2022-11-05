@@ -1,0 +1,22 @@
+.principal{
+    width: 700px;
+    height: 500px;
+    border: solid black 1px;
+    margin: auto;
+    margin-top: 50px;
+}
+.form-control{
+    margin-top:30px;
+}
+.botao{
+    margin: auto;
+    height: 50px;
+    width: 300px;
+}
+button{
+    margin: auto;
+}
+hr{
+    background-color: black;
+    display: none;
+}
