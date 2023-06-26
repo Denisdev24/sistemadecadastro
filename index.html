@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>Sistema</title>
 </head>
 <body>
-   <div class="principal">
-    <form action="php/acao.php" method="post">
-    <div class="row">
-        <div class="col">
-          <input type="text" name="nome" class="form-control" placeholder="Name" aria-label="First name">
-        </div>
-        <div class="col">
-          <input type="text" name="idade" class="form-control" placeholder="Idade" aria-label="Last name">
-        </div>
-        <div class="col">
-          <input type="text" name="email" class="form-control" placeholder="Email" aria-label="First name">
-        </div>
-        <div class="col">
-          <input type="text" name="telefone" class="form-control" placeholder="Telefone" aria-label="Last name">
-        </div>
-      </div>
-      <hr>
-   </div>
-    <div class="botao">
-        <input type="submit" name="salvar" value="Salvar" class="btn btn-outline-primary">
-        <input type="submit" name="pesquisar" value="Pesquisar" class="btn btn-outline-secondary">
-        <input type="submit" name="excluir" value="Excluir" class="btn btn-outline-success">
-      </form> 
-     
-    </div>
-
+  <h1>Sistéma de cadastro </h1>
+  <div id="tabela" class="principal">
+    <fieldset>
+    <legend>Dados do cliente</legend>
+    <form action="php/salvar.php" method="post">
+      <label>Nome
+        <input id="caixa" type="text" name="nome">
+      </label>
+      <br>
+      <label>Enereço
+        <input id="caixa" type="text" id="lname" name="endereco">
+      </label>
+      <br>
+      <label>Email
+        <input id="caixa" type="text" name="email">
+      </label>
+      <input type="submit" name = 'salvar' value="Salvar">
+    </form>
+  </fieldset>
+  <button><a href="php/registros.php">Registros Salvos</a></button>
+  <br>
+  </div>
 </body>
+<script src="js/fundo.js"></script>
 </html>

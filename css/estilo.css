@@ -1,22 +1,20 @@
 .principal{
-    width: 700px;
-    height: 500px;
-    border: solid black 1px;
-    margin: auto;
-    margin-top: 50px;
+    width: 500px;
+    height: 300px;
+    margin-left: 400px;
 }
-.form-control{
-    margin-top:30px;
+h1{
+    font-size: 40px;
+    color: blue;
+    margin-left: 60px;
 }
-.botao{
-    margin: auto;
-    height: 50px;
-    width: 300px;
+form{
+    text-align: center;
 }
-button{
-    margin: auto;
+input{
+    width:300px;
+    margin-top: 10px;
 }
-hr{
-    background-color: black;
-    display: none;
+td{
+    text-align: center;
 }
